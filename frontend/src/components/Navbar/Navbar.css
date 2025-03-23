@@ -1,0 +1,66 @@
+.navbar{
+    padding : 10px 0px;
+    display : flex;
+    justify-content : space-between;
+    /* align-items : center */
+}
+
+.navbar .logo{
+ 
+    width : 180px; 
+    height : 65px;
+   border-radius: 30px;
+   padding-top: 10px;
+}
+
+.navbar-menu{
+    display : flex;
+    list-style: none;
+    gap : 20px;
+    color : #49557e;
+    font-size : 18px;
+    padding-top : 30px;
+    cursor: pointer;
+}
+.navbar-menu :hover{
+    background: transparent;
+}
+.navbar-right{
+    display:flex;
+    align-items:center;
+    gap:40px
+}
+.navbar button{
+    background: transparent;
+    font-size: 18px;
+    /* color : #49557e; */
+    color : black;
+    border:2px solid ;
+    border-radius: 30px;
+    padding : 10px 30px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: rgb(14, 70, 236);
+}
+
+.navbar .active{
+    padding-bottom: 1px;
+    border-bottom: 3px solid #49557e;
+}
+.navbar-right img{
+cursor: pointer;
+}
+.navbar-search-icon{
+    position : relative;
+}
+.navbar-search-icon .dot{
+    position : absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top : 13px;
+    right : 4px;
+}
